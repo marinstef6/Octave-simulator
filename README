@@ -1,6 +1,6 @@
 ## Marin Stefania,311CA,2022-2023
 
-In acest program am folodit pointeri,dublu pointeri si triplii pointeri pentru 
+In acest program am folosit pointeri,dublu pointeri si triplii pointeri pentru 
 a aloca memorie matricelor si vectorilor.
 Triplul pointer numit octav, este un vector de matrici.Aici vom retine toate
 matricile si unele rezultate ale functiilor.
