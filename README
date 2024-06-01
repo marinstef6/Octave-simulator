@@ -1,0 +1,55 @@
+## Marin Stefania,311CA,2022-2023
+
+In acest program am folodit pointeri,dublu pointeri si triplii pointeri pentru 
+a aloca memorie matricelor si vectorilor.
+Triplul pointer numit octav, este un vector de matrici.Aici vom retine toate
+matricile si unele rezultate ale functiilor.
+Dublu pointer "dim",ajuta la retinerea in memorie a dimensiunilor matricelor.
+Total este numarul matricelor din memorie.
+Am folosit mai multe functii pentru a face mai usor programul si pentru a fi mai eficient.
+Prima functie este "creare" si ne ajuta sa cream o matrice.Daca nu se poate se va afisa un mesaj,altfel
+incepem sa citim o matrice.Este de tip int
+deoarece vom return un dublu pointer care reprezinta matricea citita.
+A doua functie este comanda_P si este de tip void deoarece vom afisa matricea.
+A treia este elib_matrix,o functie care ne ajuta sa eliberam o matrice,pentru a nu incarca memoria.
+A patra functie este vector este de tip int deoarece va returna un pointer.
+Ne ajutam de aceasta functie pentru a crea dublul pointer dim.
+A cincea functie este comanda_M.Cu ajutorul ei vom face inmultirea a doua matrici,si rezultatul 
+il vom trimit in main cu ajutorul unui dublu pointer.
+A sasea functie este suma.Aceasta ne ajuta sa facem suma elementelor unei matrice,
+iar in main ne va ajuta ca sa ordonam toate matricile 
+crescator in functie de suma.
+A saptea functie trans ,ajuta la crearea transpusa unei matrice.Cu ajutorul unui dublu pointer
+imi creez transpusa si o trimit in main cu pointerul t.
+In functia putere vom face ridicarea la putere in timp logaritmic.Cu ajutorul unui dublu pointer
+vom retine matricea si apoi in alt dublu pointer vomretine rezultatul final.
+La final vom da eliberare pentru a nu incarca memoria si vom returna pointerul.
+Functia redimens,va ajuta la crearea altei matrice stergand linii si coloane.
+In main vom citi coloanele si liniile si apoi 2 vectori in care sunt unele linii si unele coloane din 
+matricea initiala ,iar pe acestea le vom pastra in noua matrice.Aceasta se va pune in locul celei vechi.
+In main voi citi litere respective pentru comenzi.Astfel citind litera L vom citi matricea.
+Citind litera P vom afisa matricea citita sau se va afisa un mesaj daca nu exista indicele respectiv 
+al matricei dorita.
+Litera D ajuta la afisarea liniei si coloanei respectivului index citit.Daca nu exista indexul se va
+afisa un mesaj.
+Litera C este pentru redimensionare.Daca nu exista indicele vom afisa un mesaj,altfel vom crea un 
+dublu pointer in care tinem minte matricea rezultat.
+Vom elibera matricea veche si in locul ei o vompune pe cea noua,iar in dim vom pune noile 
+valori ale liniei si coloanei.
+Litera M este pentru inmultirea matricei.Daca indexul nu exista se afiseaza mesaj.
+Daca coloana primei matrice nu este egala cu linia celei de-a doua se va afisa un mesaj, iar
+inmultirea nu va avea loc.Altfel vom apela functia respectiva si vom aseza matricea rezultat in 
+vectorul de matrici.Dimensiunea noii matrice o vom pune in dim la final.
+Litera O ajuta la sortare.Aici avem pointeri auxiliari in care retinem matrici sau dimensiuni pentru
+a le sorta.
+Litera T,ajuta la transpusa.Daca nu exista indicele atunci se afiseaza mesaj,altfel cu ajutorul
+unui dublu pointer vom retine transpusa.Eliberam memoria pentru a pune matricea rezultat
+si in vectorul dim vom pune dimensiunea matricei transpuse.
+Litera R,este pentru ridicarea la putere.Daca nu exista indicele se afiseaza mesaj.
+Daca puterea e negativa se afiseaza mesaj si ridicarea nu se va efectua.
+Altfel vom retine intr-un dublu pointer rezultatul.Eliberam matricea veche si in locul ei vom pune 
+matricea rezultat,acelasi lucru facand si cu dim.
+Litera F,ajuta la eliberarea unei matrice.Daca nu exista indicele vom afisa mesaj,altfel
+vom dupa ce eliberam o matrice si dimensiunea ei,vom muta fiecare matrice si dimensiune in stanga,cu ajutorul unui for.
+Litera Q,ajuta la eliberarea tuturor resurselor.
+
